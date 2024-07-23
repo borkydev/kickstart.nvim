@@ -678,18 +678,18 @@ require('lazy').setup({
     -- default lazy.nvim defined Nerd Font icons, otherwise define a unicode icons table
     icons = vim.g.have_nerd_font and {} or {
       cmd = '⌘',
-      config = '🛠',
+      config = '',
       event = '📅',
       ft = '📂',
       init = '⚙',
-      keys = '🗝',
+      keys = '',
       plugin = '🔌',
       runtime = '💻',
       require = '🌙',
       source = '📄',
-      start = '🚀',
+      start = '',
       task = '📌',
-      lazy = '💤 ',
+      lazy = ' ',
     },
   },
 })
