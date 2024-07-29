@@ -422,10 +422,10 @@ require('lazy').setup({
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
         python = { 'isort', 'black' },
+        javascript = { 'prettierd', 'prettier' },
         --
-        -- You can use a sub-list to tell conform to run *until* a formatter
-        -- is found.
-        javascript = { { 'prettierd', 'prettier' } },
+        -- You can use 'stop_after_first' to run the just the first formatter from the list
+        -- javascript = { 'prettierd', 'prettier', stop_after_first = true },
       },
     },
   },
